@@ -1,0 +1,99 @@
+{
+    "global": {
+        "noGuildPlayer": "🤖 Actualmente no estoy reproduciendo nada.",
+        "unsupportedCommand": "❌ ¡No soporto el comando \"{command}\"!",
+        "unknownGuild": "❌ ¡No puedo saber en qué servidor estás!"
+    },
+    "clear": {
+        "description": "Elimina todas las canciones actualmente en fila.",
+        "success": "✅ Eliminadas {count} canciones de la fila."
+    },
+    "pause": {
+        "description": "Pausa la canción actual.",
+        "success": "⏸️ Canción en pausa.",
+        "failure": "❌ No se puede pausar la canción actual."
+    },
+    "resume": {
+        "description": "Reanuda la reproducción de la canción actualmente en pausa.",
+        "success": "▶️ ¡Vamos!",
+        "failure": "❌ No se puede reanudar la canción."
+    },
+    "shuffle": {
+        "description": "Reproduce en modo aleatorio la lista de reproduccion actual.",
+        "success": "🔀 Modo aleatorio activado."
+    },
+    "skip": {
+        "description": "Omite la canción actual.",
+        "success": "⏭️ La canción {song} fue omitida.",
+        "failure": "❌ No hay ninguna canción reproduciéndose."
+    },
+    "stop": {
+        "description": "Detiene el reproductor, elimina la fila y desconecta el bot.",
+        "success": "✌️ ¡Chau cuidate!"
+    },
+    "setvolume": {
+        "description": "Establece el volumen predeterminado del bot para todas las canciones y todos los usuarios.",
+        "optionDescription": "Volumen entre 0 y 200.",
+        "success": "🔊 Volumen predeterminado establecido en {volume}.",
+        "failure": "❌ No se puede establecer el volumen."
+    },
+    "play": {
+        "description": "Reproduce una canción/playlist de inmediato (detiene la canción actual si se está reproduciendo).",
+        "optionDescription": "Canción/playlist a buscar, servicios admitidos: YouTube y Spotify.",
+        "noTracksFound": "❌ No se encontraron canciones para tu búsqueda \"{query}\"",
+        "insufficientVoiceChannelPermissions": "❌ ¡No tengo suficientes permisos para reproducir música en tu canal de voz \"{channel}\"!",
+        "userNotInVoiceChannel": "❌ ¡Debes estar en un canal de voz para reproducir música!",
+        "successTrack": "▶️ Reproduciendo la canción {track}.",
+        "successPlaylist": "▶️ Reproduciendo la playlist {playlist}."
+    },
+    "add": {
+        "description": "Añade una canción/playlist al final de la fila.",
+        "successTrack": "▶️ Añadida la canción {track} a la fila.",
+        "successPlaylist": "▶️ Añadida la playlist {playlist} a la fila."
+    },
+    "queue": {
+        "description": "Muestra todas las canciones de la lista actual.",
+        "empty": "🐍 La lista está vacía.",
+        "queue": "Lista",
+        "currentTrack": "Canción actual"
+    },
+    "song": {
+        "description": "Muestra información sobre la canción actual.",
+        "success": "🎶 Canción actual: {track}"
+    },
+    "help": {
+        "description": "Obtener una visión general de todos mis comandos."
+    },
+    "repeat": {
+        "description": "Establece el modo de repetición para las canciones.",
+        "modeDescription": "¿Cómo debería repetirse la música? Predeterminado: Sin repetición",
+        "modes": {
+            "none": "Sin repetición",
+            "track": "Canción"
+        },
+        "success": "✅ Modo de repetición establecido en \"{mode}\"."
+    },
+    "seek": {
+        "description": "Busca en la canción actual el tiempo especificado.",
+        "optionDescription": "Tiempo al que se debe buscar (en segundos).",
+        "success": "✅ Canción actual buscada a {duration}",
+        "failure": "❌ No se pudo buscar en la canción actual."
+    },
+    "remove": {
+        "description": "Elimina una canción de la fila.",
+        "optionDescription": "Posición de la canción en la fila.",
+        "success": "🗑️ Canción {track} eliminada de la fila.",
+        "failure": "❌ No se pudo eliminar la canción porque no está en la fila."
+    },
+    "jump": {
+        "description": "Salta a una canción en la fila.",
+        "optionDescription": "Posición de la canción en la fila.",
+        "success": "⏭️ Saltado a la canción {track} en la fila.",
+        "failure": "❌ No se pudo saltar a la canción porque no está en la fila."
+    },
+    "insert": {
+        "description": "Añade una canción a una posición específica en la fila.",
+        "optionDescription": "Posición en la fila donde se debe agregar la canción.",
+        "success": "▶️ Canción {track} añadida en la posición {position} de la fila."
+    }
+}
